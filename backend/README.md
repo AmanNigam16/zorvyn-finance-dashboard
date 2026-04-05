@@ -19,7 +19,7 @@ The project is structured to demonstrate backend fundamentals clearly:
 * Node.js
 * Express
 * TypeScript
-* MongoDB with Mongoose
+* MongoDB Atlas with Mongoose
 * JWT authentication
 
 ---
@@ -211,19 +211,22 @@ npm start
 
 ---
 
-## Assumptions and Trade-offs
+## Demo Users
 
-* The first user bootstrap keeps the project easy to review on a fresh database
-* Public signup is intentionally simple and limited to safe account creation
-* User management is handled by admins after signup instead of exposing privileged role selection publicly
-* Soft delete was preferred over hard delete for finance records
-* The implementation stays intentionally modular and focused instead of adding unnecessary complexity
+ADMIN
+aman.admin1@gmail.com - abc123
+
+ANALYST
+aman.analyst1@gmail.com	- 654321 
+
+VIEWER
+aman.viewer1@gmail.com - 654321
 
 ---
 
 ## Frontend Pairing
 
-The frontend in the sibling `frontend/` folder exposes:
+The frontend present in the `frontend/` folder provides:
 
 * sign in and sign up
 * finance dashboard
