@@ -1,0 +1,32 @@
+.sidebar {
+    box-shadow: 0 22px 60px rgba(15, 23, 42, 0.08);
+}
+
+.navbar {
+    z-index: 10000;
+}
+
+@media screen and (max-width:800px) {
+    .sidebar {
+        z-index: 10000000;
+    }
+}
+
+body {
+    background:
+        radial-gradient(circle at top left, rgba(99, 102, 241, 0.08), transparent 28%),
+        linear-gradient(180deg, #f8faff 0%, #eef2ff 100%);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
