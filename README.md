@@ -53,6 +53,17 @@ npm install
 npm run dev
 ```
 
+## Demo Users
+
+ADMIN
+aman.admin1@gmail.com - abc123
+
+ANALYST
+aman.analyst1@gmail.com	- 654321 
+
+VIEWER
+aman.viewer1@gmail.com - 654321
+
 ---
 
 ## Main Pages
