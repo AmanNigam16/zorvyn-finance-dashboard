@@ -6,6 +6,7 @@ build
 # env files
 .env
 .env.*
+!.env.example
 
 .DS_Store
 npm-debug.log*
