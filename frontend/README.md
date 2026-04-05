@@ -28,14 +28,6 @@ The UI adjusts automatically based on the logged-in user’s role. The first-eve
 
 ---
 
-## Main Screens
-
-* **Dashboard** → summary (income, expense, balance), trends, categories
-* **Transactions** → list of financial records with filters
-* **Users (Admin only)** → manage user roles and status
-
----
-
 ## Tech Used
 
 * React (Vite)
@@ -59,14 +51,6 @@ VITE_API_BASE_URL=http://localhost:5000/api/v1
 
 ---
 
-## Notes
-
-* Frontend depends on backend APIs running locally
-* Focus is on functionality and role-based behavior
-* Simplified UI elements relevant to the assignment instead of complex UI
-
----
-
 ## Demo Users
 
 ADMIN
@@ -78,8 +62,4 @@ aman.analyst1@gmail.com	- 654321
 VIEWER
 aman.viewer1@gmail.com - 654321
 
----
 
-## Final Summary
-
-This frontend is kept simple and aligned with the backend requirements by focusing on correct data flow, role-based access, and usability.
