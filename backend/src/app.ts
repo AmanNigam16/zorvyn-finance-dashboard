@@ -18,6 +18,14 @@ app.use(
 );
 app.use(express.json());
 
+app.get("/", (_req, res) => {
+  res.status(200).json(
+    successResponse("Zorvyn backend is running.", {
+      status: "ok"
+    })
+  );
+});
+
 app.get("/health", (_req, res) => {
   res.status(200).json(
     successResponse("Zorvyn backend is running.", {
